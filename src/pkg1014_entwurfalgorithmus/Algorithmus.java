@@ -16,8 +16,7 @@ public class Algorithmus {
             double secondNum = numbers[numbers.length / 2];
             return (firstNum + secondNum) / 2;
         } else {     // ungerade anzahl zahen im array
-            int mid = numbers.length / 2;
-            return numbers[Math.round(mid)];
+            return numbers[numbers.length / 2];
         }
     }
 }
