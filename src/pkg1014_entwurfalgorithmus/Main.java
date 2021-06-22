@@ -16,8 +16,16 @@ public class Main {
      */
     public static void main(String[] args) {
         Algorithmus a = new Algorithmus();
-        int[] nums = {1,4,7,2,4,6,8,9,3,1,8,0};
+        int[] nums = {1, 2, 3}; // ungerade anzahl
+        int[] nums2 = {1, 2, 3, 4}; // gerade anzahl
+        int[] nums3 = {1, 3, 2}; // ungerade anzahl nicht sortiert
+        int[] nums4 = {4, 2, 1, 3}; // gerade anzahl nicht sortiert
+
         System.out.println("Median: " + a.getMedian(nums));
+        System.out.println("Median: " + a.getMedian(nums2));
+        System.out.println("Median: " + a.getMedian(nums3));
+        System.out.println("Median: " + a.getMedian(nums4));
+        
 
     }
 
