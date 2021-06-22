@@ -19,8 +19,8 @@ public class Main {
         int[] nums = {1, 2, 3, 4}; // gerade anzahl
         int[] nums2 = {1, 2, 3, 4, 5}; // ungerade anzahl
         
-        System.out.println("Median: " + a.getMedian(nums)); // 2.5 erwartet
-        System.out.println("Median: " + a.getMedian(nums2)); // 3 erwartet
+        System.out.println("Median: " + a.getMedian(nums)); // 2.5 als Median erwartet
+        System.out.println("Median: " + a.getMedian(nums2)); // 3 als Median erwartet 
         
         
     }

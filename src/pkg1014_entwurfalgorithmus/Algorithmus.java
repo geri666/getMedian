@@ -16,7 +16,7 @@ public class Algorithmus {
             double secondNum = numbers[numbers.length / 2];
             return (firstNum + secondNum) / 2;
         } else {     // ungerade anzahl zahen im array
-            return numbers[numbers.length / 2];
+            return numbers[numbers.length / 2]; // länge des arrays durch 2. gibt immer den index der mitte
         }
     }
 }
